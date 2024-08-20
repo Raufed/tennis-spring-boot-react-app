@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-intro {
+  align-items: flex-end;
+  display: flex;
+}
+.popup-menu {
+  width: 300px;
+  height: 400px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+  border: 5px solid white;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+
+.dish-name {
+  width: 90%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dish-price {
+  width: 90%;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.actions {
+  margin-top: 10px;
+}
+img {
+  width: 85%;
+}

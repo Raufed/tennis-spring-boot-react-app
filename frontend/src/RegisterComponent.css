@@ -1,0 +1,73 @@
+/* General Register Component Styling */
+.RegisterContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    z-index: 1050;
+    animation: fadeIn 0.3s;
+    text-align: center;
+}
+
+.RegisterContainer h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.RegisterContainer label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.RegisterContainer input[type="text"],
+.RegisterContainer input[type="email"],
+.RegisterContainer input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.RegisterContainer button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.RegisterContainer button:hover {
+    opacity: 0.8;
+}
+
+.RegisterContainer .error-text {
+    color: #e74c3c;
+}
+
+.RegisterContainer .success-text {
+    color: #2ecc71;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
